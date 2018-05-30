@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qdo-Dm-s6H">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Georgia.ttf">
+            <string>Georgia</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Tutorial Main Controller-->
+        <scene sceneID="bNZ-1S-SSN">
+            <objects>
+                <pageViewController storyboardIdentifier="tutorialMain" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="qdo-Dm-s6H" customClass="TutorialMainController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CUv-If-XYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-234" y="-726"/>
+        </scene>
+        <!--Tutorial Page1 View Controller-->
+        <scene sceneID="rfu-Ux-caY">
+            <objects>
+                <viewController storyboardIdentifier="tutorial1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aTb-uR-NLh" customClass="TutorialPage1ViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d9Q-1b-6WP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hok-bf-j0v">
+                                <rect key="frame" x="84" y="320" width="206" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">With this app you can explore the museum in a fun and unique way. This app is best used in group. We'll briefly explain how this app works in the tutorial. But you can skip it if you want.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9F-13-DdS">
+                                <rect key="frame" x="84" y="233" width="206" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to the museum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iJ-Wn-UID">
+                                <rect key="frame" x="84" y="279" width="206" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8l-gz-Wn0">
+                                <rect key="frame" x="16" y="520" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="NL">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnNLClicked:" destination="aTb-uR-NLh" eventType="touchUpInside" id="UXr-U6-JAN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ok6-NA-01S">
+                                <rect key="frame" x="70" y="520" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="EN"/>
+                                <connections>
+                                    <action selector="btnENClicked:" destination="aTb-uR-NLh" eventType="touchUpInside" id="V6e-CQ-7jC"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rve-KK-1Wy">
+                                <rect key="frame" x="168" y="610" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.10186896473169327" green="0.37862581014633179" blue="0.41992670297622681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jec-VD-i51">
+                                <rect key="frame" x="284" y="610" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Skip"/>
+                                <connections>
+                                    <segue destination="aIC-Uw-PWb" kind="show" id="9m7-cX-8vC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Human_high_01_EN(image Claude Desmedt – RBINS)" translatesAutoresizingMaskIntoConstraints="NO" id="Z4g-JR-tfr">
+                                <rect key="frame" x="-20" y="-7" width="414" height="218"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ORG-mJ-wCM"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnSkip" destination="Jec-VD-i51" id="9gn-QH-LhH"/>
+                        <outlet property="lblMuseum" destination="3iJ-Wn-UID" id="7GH-dI-pqc"/>
+                        <outlet property="lblTut1Info" destination="hok-bf-j0v" id="8ic-Mu-MKI"/>
+                        <outlet property="lblWelcome" destination="h9F-13-DdS" id="Bbx-4x-tCv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Wf-fF-0AH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="-726.38680659670172"/>
+        </scene>
+        <!--Tutorial Page2 View Controller-->
+        <scene sceneID="aSF-Zf-QwX">
+            <objects>
+                <viewController storyboardIdentifier="tutorial2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wMP-h0-wzJ" customClass="TutorialPage2ViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z9T-M1-7MD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Human_high_03_EN(photo Thierry Hubin – RBINS)" translatesAutoresizingMaskIntoConstraints="NO" id="EXa-EI-6As">
+                                <rect key="frame" x="1" y="0.0" width="374" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tus-ra-hM4">
+                                <rect key="frame" x="68" y="272" width="240" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">The purpose of this app is to help you learn more about our museum. We do this with a fun little quiz about key objects in a hall. You need to have location and bluetooth enabled for a full interactive experience.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="quC-ol-Tpk">
+                                <rect key="frame" x="168" y="610" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="pageIndicatorTintColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="u1X-zn-uuu"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblTut2Info" destination="Tus-ra-hM4" id="Lxs-zc-qAR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="99h-Fh-CbF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="-726"/>
+        </scene>
+        <!--Tutorial Page3 View Controller-->
+        <scene sceneID="6N9-TP-rhQ">
+            <objects>
+                <viewController storyboardIdentifier="tutorial3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QOF-bA-YJg" customClass="TutorialPage3ViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rmr-6v-5bj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dino_high_10_NL" translatesAutoresizingMaskIntoConstraints="NO" id="lsD-0L-udF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEH-pY-bGI">
+                                <rect key="frame" x="313" y="617" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="aIC-Uw-PWb" kind="show" id="R63-YF-kbS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88O-0I-GKy">
+                                <rect key="frame" x="67" y="281" width="240" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">If you get every answer correct on your journey you can take a picture with an AR image of a Homo Habilis! You can also get a discount at the gift store if you can find the secret location...</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="IaQ-cB-tMb">
+                                <rect key="frame" x="44" y="610" width="287" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TuP-BC-on4"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblTut3Infi" destination="88O-0I-GKy" id="F4z-iP-qCN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SiD-uI-TXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="-726.38680659670172"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </arscnView>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2674" y="998"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HAn-Av-8Vl">
+            <objects>
+                <navigationController id="aIC-Uw-PWb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bcM-yF-vPA">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="j5l-La-o10" kind="relationship" relationship="rootViewController" id="vUB-Sl-Gab"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oF8-lK-DvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="828"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="h3F-z8-7nz">
+            <objects>
+                <viewController id="j5l-La-o10" customClass="HomeViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o9G-Tm-DOP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tB5-1S-9ey">
+                                <rect key="frame" x="260" y="520" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Take a tour"/>
+                                <connections>
+                                    <segue destination="hsB-6Q-4qT" kind="show" id="eFL-3r-u2S"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dino_high_08_NL" translatesAutoresizingMaskIntoConstraints="NO" id="cMY-nQ-4wy">
+                                <rect key="frame" x="2" y="64" width="373" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="You can pick between a set tour through the collection or you can explore on your own using location." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flv-bB-lfm">
+                                <rect key="frame" x="17" y="343" width="343" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cS-Dt-hed">
+                                <rect key="frame" x="16" y="520" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Explore">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Zne-fP-BF1" kind="show" id="aQn-wp-NtB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKd-vw-ZDZ">
+                                <rect key="frame" x="110" y="617" width="154" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Retake tutorial"/>
+                                <connections>
+                                    <segue destination="qdo-Dm-s6H" kind="show" id="eS3-k8-cSZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L9P-He-eaa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4gp-Uv-F1g"/>
+                    <connections>
+                        <outlet property="btnExplore" destination="5cS-Dt-hed" id="LIk-nw-IKY"/>
+                        <outlet property="btnRetakeTut" destination="dKd-vw-ZDZ" id="9Wp-J9-tUb"/>
+                        <outlet property="btnTour" destination="tB5-1S-9ey" id="Ski-Ph-fnV"/>
+                        <outlet property="lblHomeInfo" destination="Flv-bB-lfm" id="MTN-ax-IPc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZi-fL-L8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="826.23688155922048"/>
+        </scene>
+        <!--Beacon View Controller-->
+        <scene sceneID="nP9-0X-nJa">
+            <objects>
+                <viewController id="Zne-fP-BF1" customClass="BeaconViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IMm-yS-drY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Looking for a location..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nah-Eq-1VY">
+                                <rect key="frame" x="16" y="64" width="343" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lEd-ah-Ase"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblLookingLoc" destination="Nah-Eq-1VY" id="Sbn-bT-Nvf"/>
+                        <segue destination="5k0-DR-SvX" kind="presentation" id="dgU-F4-D4S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fox-eB-eZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="573"/>
+        </scene>
+        <!--Pick Tour View Controller-->
+        <scene sceneID="bA3-ul-HyX">
+            <objects>
+                <viewController id="hsB-6Q-4qT" customClass="PickTourViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gny-qB-O4r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3t-vz-Gw8">
+                                <rect key="frame" x="220" y="401" width="139" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Dino_high_08_NL"/>
+                                <connections>
+                                    <action selector="btnTrexClicked:" destination="hsB-6Q-4qT" eventType="touchUpInside" id="64p-JA-LKt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3b-uK-ipZ">
+                                <rect key="frame" x="16" y="401" width="139" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Evol_high_05_EN"/>
+                                <connections>
+                                    <action selector="btnEarlyLifeClicked:" destination="hsB-6Q-4qT" eventType="touchUpInside" id="hCq-ww-LnD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pR7-DV-0gy">
+                                <rect key="frame" x="217" y="147" width="142" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Human_high_01_EN(image Claude Desmedt – RBINS)"/>
+                                <connections>
+                                    <action selector="btnHomoHabClicked:" destination="hsB-6Q-4qT" eventType="touchUpInside" id="flj-FC-c6E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0a-JR-oBp">
+                                <rect key="frame" x="16" y="147" width="142" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Human_slide_02_EN"/>
+                                <connections>
+                                    <action selector="btnEarlyHumanClicked:" destination="hsB-6Q-4qT" eventType="touchUpInside" id="cFW-No-ERo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3e-kM-izJ">
+                                <rect key="frame" x="0.0" y="82" width="343" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Homo habilis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwm-zE-Dm5">
+                                <rect key="frame" x="217" y="247" width="142" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Early humans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAu-X5-Rag">
+                                <rect key="frame" x="16" y="247" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Early life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSW-Zu-QCk">
+                                <rect key="frame" x="16" y="500" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T-rex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXT-84-3LW">
+                                <rect key="frame" x="220" y="500" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oGZ-Zj-s9y"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnEarlyHuman" destination="m0a-JR-oBp" id="9vG-yr-XhO"/>
+                        <outlet property="btnEarlyLife" destination="j3b-uK-ipZ" id="l1a-0a-geE"/>
+                        <outlet property="btnHomoHab" destination="pR7-DV-0gy" id="66U-RC-Aln"/>
+                        <outlet property="btnTrex" destination="U3t-vz-Gw8" id="nSr-kf-sa6"/>
+                        <outlet property="lblEarlyHum" destination="IAu-X5-Rag" id="5XZ-fT-XbC"/>
+                        <outlet property="lblEarlyLife" destination="rSW-Zu-QCk" id="9bC-wc-ihF"/>
+                        <outlet property="lblPickTour" destination="E3e-kM-izJ" id="SwR-5V-D5j"/>
+                        <segue destination="5k0-DR-SvX" kind="presentation" identifier="showQuizTrex" id="w0D-TI-TKa"/>
+                        <segue destination="5k0-DR-SvX" kind="presentation" identifier="showQuizHomoHab" id="WqP-uR-6bc"/>
+                        <segue destination="5k0-DR-SvX" kind="presentation" identifier="showQuizEarlyLife" id="DsO-5P-NN7"/>
+                        <segue destination="5k0-DR-SvX" kind="presentation" identifier="showQuizEarlyHumans" id="4zH-rr-Fld"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAC-QR-WLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="1271"/>
+        </scene>
+        <!--Tour View Controller-->
+        <scene sceneID="UHw-37-l0p">
+            <objects>
+                <viewController id="5k0-DR-SvX" customClass="TourViewController" customModule="FinalWorkV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Re6-AW-Cvy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NA6-Ns-mlp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10186896469999999" green="0.37862581010000002" blue="0.41992670300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baa-Hl-P1V">
+                                <rect key="frame" x="16" y="73" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="action:" destination="5k0-DR-SvX" eventType="touchUpInside" id="nBc-hR-1yK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXr-e3-nxk">
+                                <rect key="frame" x="16" y="149" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="action:" destination="5k0-DR-SvX" eventType="touchUpInside" id="Ny6-hl-rQy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGd-AN-cvS">
+                                <rect key="frame" x="16" y="243" width="343" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="action:" destination="5k0-DR-SvX" eventType="touchUpInside" id="v7y-kn-JM2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THg-R0-FKC">
+                                <rect key="frame" x="16" y="338" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="action:" destination="5k0-DR-SvX" eventType="touchUpInside" id="wpL-OD-vdp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vraag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ame-cW-nlh">
+                                <rect key="frame" x="16" y="32" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VraagNr" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMo-LE-TgU">
+                                <rect key="frame" x="291" y="32" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Human_high_01_EN(image Claude Desmedt – RBINS)" translatesAutoresizingMaskIntoConstraints="NO" id="Hoe-ln-GY6">
+                                <rect key="frame" x="39" y="453" width="296" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Punten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXD-b0-sxd">
+                                <rect key="frame" x="39" y="424" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="g7Q-c1-uEs"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnVraag1" destination="baa-Hl-P1V" id="WOh-fv-N4V"/>
+                        <outlet property="btnVraag2" destination="gXr-e3-nxk" id="NSe-3B-GSD"/>
+                        <outlet property="btnVraag3" destination="AGd-AN-cvS" id="3Ua-hv-Dw2"/>
+                        <outlet property="btnVraag4" destination="THg-R0-FKC" id="zng-JS-iMl"/>
+                        <outlet property="lblPunten" destination="oXD-b0-sxd" id="QuS-oh-FpI"/>
+                        <outlet property="lblVraag" destination="ame-cW-nlh" id="G6q-et-gJO"/>
+                        <outlet property="lblVraagNr" destination="XMo-LE-TgU" id="SFp-Zv-DNG"/>
+                        <segue destination="BV1-FR-VrT" kind="presentation" identifier="showScore" id="wZy-w8-yxV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33j-uC-FZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="996.25187406296857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dino_high_08_NL" width="1072" height="715"/>
+        <image name="Dino_high_10_NL" width="1072" height="714"/>
+        <image name="Evol_high_05_EN" width="1072" height="716"/>
+        <image name="Human_high_01_EN(image Claude Desmedt – RBINS)" width="1072" height="715"/>
+        <image name="Human_high_03_EN(photo Thierry Hubin – RBINS)" width="1072" height="714"/>
+        <image name="Human_slide_02_EN" width="839" height="406"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="w0D-TI-TKa"/>
+        <segue reference="R63-YF-kbS"/>
+    </inferredMetricsTieBreakers>
+</document>

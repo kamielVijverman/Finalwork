@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "To the museum"; ObjectID = "3iJ-Wn-UID"; */
+"3iJ-Wn-UID.text" = "To the museum";
+
+/* Class = "UIButton"; normalTitle = "Explore"; ObjectID = "5cS-Dt-hed"; */
+"5cS-Dt-hed.normalTitle" = "Explore";
+
+/* Class = "UITextView"; text = "If you get every answer correct on your journey you can take a picture with an AR image of a Homo Habilis! You can also get a discount at the gift store if you can find the secret location..."; ObjectID = "88O-0I-GKy"; */
+"88O-0I-GKy.text" = "If you get every answer correct on your journey you can take a picture with an AR image of a Homo Habilis! You can also get a discount at the gift store if you can find the secret location...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AGd-AN-cvS"; */
+"AGd-AN-cvS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "T-rex"; ObjectID = "BXT-84-3LW"; */
+"BXT-84-3LW.text" = "T-rex";
+
+/* Class = "UILabel"; text = "Pick a tour"; ObjectID = "E3e-kM-izJ"; */
+"E3e-kM-izJ.text" = "Pick a tour";
+
+/* Class = "UITextView"; text = "You can pick between a set tour through the collection or you can explore on your own using location."; ObjectID = "Flv-bB-lfm"; */
+"Flv-bB-lfm.text" = "You can pick between a set tour through the collection or you can explore on your own using location.";
+
+/* Class = "UILabel"; text = "Early humans"; ObjectID = "IAu-X5-Rag"; */
+"IAu-X5-Rag.text" = "Early humans";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "Jec-VD-i51"; */
+"Jec-VD-i51.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Looking for a location..."; ObjectID = "Nah-Eq-1VY"; */
+"Nah-Eq-1VY.text" = "Looking for a location...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "THg-R0-FKC"; */
+"THg-R0-FKC.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "The purpose of this app is to help you learn more about our museum. We do this with a fun little quiz about key objects in a hall. You need to have location and bluetooth enabled for a full interactive experience."; ObjectID = "Tus-ra-hM4"; */
+"Tus-ra-hM4.text" = "The purpose of this app is to help you learn more about our museum. We do this with a fun little quiz about key objects in a hall. You need to have location and bluetooth enabled for a full interactive experience.";
+
+/* Class = "UILabel"; text = "VraagNr"; ObjectID = "XMo-LE-TgU"; */
+"XMo-LE-TgU.text" = "VraagNr";
+
+/* Class = "UILabel"; text = "Vraag"; ObjectID = "ame-cW-nlh"; */
+"ame-cW-nlh.text" = "Vraag";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "baa-Hl-P1V"; */
+"baa-Hl-P1V.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Retake tutorial"; ObjectID = "dKd-vw-ZDZ"; */
+"dKd-vw-ZDZ.normalTitle" = "Retake tutorial";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "gEH-pY-bGI"; */
+"gEH-pY-bGI.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gXr-e3-nxk"; */
+"gXr-e3-nxk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "h9F-13-DdS"; */
+"h9F-13-DdS.text" = "Welcome";
+
+/* Class = "UITextView"; text = "With this app you can explore the museum in a fun and unique way. This app is best used in group. We'll briefly explain how this app works in the tutorial. But you can skip it if you want."; ObjectID = "hok-bf-j0v"; */
+"hok-bf-j0v.text" = "With this app you can explore the museum in a fun and unique way. This app is best used in group. We'll briefly explain how this app works in the tutorial. But you can skip it if you want.";
+
+/* Class = "UIButton"; normalTitle = "NL"; ObjectID = "k8l-gz-Wn0"; */
+"k8l-gz-Wn0.normalTitle" = "NL";
+
+/* Class = "UILabel"; text = "Punten"; ObjectID = "oXD-b0-sxd"; */
+"oXD-b0-sxd.text" = "Punten";
+
+/* Class = "UIButton"; normalTitle = "EN"; ObjectID = "ok6-NA-01S"; */
+"ok6-NA-01S.normalTitle" = "EN";
+
+/* Class = "UILabel"; text = "Early life"; ObjectID = "rSW-Zu-QCk"; */
+"rSW-Zu-QCk.text" = "Early life";
+
+/* Class = "UIButton"; normalTitle = "Take a tour"; ObjectID = "tB5-1S-9ey"; */
+"tB5-1S-9ey.normalTitle" = "Take a tour";
+
+/* Class = "UILabel"; text = "Homo habilis"; ObjectID = "vwm-zE-Dm5"; */
+"vwm-zE-Dm5.text" = "Homo habilis";
